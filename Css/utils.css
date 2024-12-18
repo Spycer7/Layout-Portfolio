@@ -1,0 +1,20 @@
+/* Utilities */
+.btn {
+    display: inline-block;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 1px solid red; */
+}
+/* 
+h3 {
+    font-family: var(--ff-nosifer);
+    padding: 8vw;
+    font-size: var(--text-3xl);
+    font-weight: 500;
+    letter-spacing: -0.3rem;
+} */

@@ -1,0 +1,129 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+:root {
+    /* Colors */
+    --clr-light: #ffffff;
+	--clr-dark: #020617;
+ 	--clr-slate200: #e2e8f0;
+    --clr-slate300: #cbd5e1;
+    --clr-slate400: #94a3b8;
+    --clr-slate500: #64748b;
+ 	--clr-slate600: #475569;
+    --clr-slate700: #334155;
+    --clr-slate800: #1e293b;
+    --clr-slate900: #0f172a;
+    --clr-card: #f9f9ff;
+    --clr-bg-light: #F3F2F2;
+    --clr-blue: #0077B5;
+    --clr-green: #00A862;
+
+    /* Text */
+    --text-xxs: 0.5rem;
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --text-6xl: 3.75rem;
+    --text-7xl: 4.5rem;
+    --text-8xl: 6rem;
+
+    /* Font Family */
+    --ff-mont: "Montserrat", sans-serif;
+    --ff-poppins: "Poppins", sans-serif;
+    --ff-nosifer: "Nosifer", serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: calc(1em + 0.5rem);
+    /* outline: 1px solid rebeccapurple; */
+}
+
+body {
+    background-color: var(--clr-light);
+
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+html {
+    font-family: var(--ff-mont);
+    color: var(--clr-dark);
+    scroll-behavior: smooth;
+}
+
+img,
+svg {
+    max-width: 100%;
+    user-select: none;
+    display: block;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: var(--text-base);
+    display: block;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-family: var(--ff-mont);
+}
+/* 
+#welcome-page {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #005582, #0077B5, #0091DA);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#welcome-page div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#welcome-page div h2 {
+    color: var(--clr-light);
+}
+
+#welcome-page button {
+    padding: 16px 32px;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    font-family: var(--ff-mont);
+    font-size: var(--text-base);
+    font-weight: 500;
+    border-radius: 6px;
+} */
